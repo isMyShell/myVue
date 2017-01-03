@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+@import "./core/reset";
+@import "./module/common.scss";
+// module
+@import "./module/m-index";
+
+body{
+	background: $base-color;
+}
