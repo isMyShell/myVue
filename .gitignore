@@ -38,3 +38,4 @@ jspm_packages
 
 # Ignore everything in this directory
 *
+# Except this file !.gitignore 
