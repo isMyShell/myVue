@@ -1,6 +1,9 @@
 <div class="m-index">
 	<header>
-		toubu
+		<div>
+			<div>搜</div>
+			<div>输入商品 / 店铺名称</div>
+		</div>
 	</header>
 	<section>
 

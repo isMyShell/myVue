@@ -1,1 +1,42 @@
+@charset "UTF-8";
 
+.m-index{
+	height: 100%;
+	@include flexbox();
+	@include flex-direction(column);;
+	header{
+		background: $base-color;
+		height: 0.44rem;
+		@include flexbox();
+		@include justify-content();
+		@include align-items();
+		div{
+			@include flexbox();
+			height: 0.24rem;
+			background: #fff;
+			width: 78vw;
+			border-radius: .06rem;
+			&>div:nth-child(1){
+				width: 0.31rem;
+				height: 0.24rem;
+				line-height: .24rem;
+				color: #dbdbdb;
+				text-indent: 0.07rem;
+				font-size: 0.14rem;
+			}
+			&>div:nth-child(2){
+				height: 0.24rem;
+				font-size: 0.12rem;
+				line-height: 0.24rem;
+				color:#818181;
+			}
+		}
+	}
+	section{
+		@include flex();
+	}
+	footer{
+		background: $base-color;
+		height: 0.44rem;
+	}
+}
